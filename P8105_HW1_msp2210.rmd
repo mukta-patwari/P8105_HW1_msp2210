@@ -1,0 +1,11 @@
+---
+title: "P8105_HW1_msp2210"
+output: github_document
+author: "Mukta Patwari"
+date: "2025-09-18"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
