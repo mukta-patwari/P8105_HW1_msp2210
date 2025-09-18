@@ -9,3 +9,18 @@ date: "2025-09-18"
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+## Problem 1
+
+**Loading libraries**
+
+```{r}
+library(tidyverse)
+library(moderndive)
+```
+
+**Loading the dataset**
+
+```{r}
+data("early_january_weather")
+```
+
