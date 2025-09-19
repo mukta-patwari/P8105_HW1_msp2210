@@ -24,7 +24,9 @@ library(moderndive)
 data("early_january_weather")
 ```
 
-This dataset has `r nrow(early_january_weather)` rows and `r ncol(early_january_weather)` columns. This dataset has 15 variables, which are `r names(early_january_weather)`. The mean temperature is `r mean(pull(early_january_weather, temp))` degrees Fahrenheit. The highest temperature recorded was `r max(pull(early_january_weather, temp))` degrees Fahrenheit and the lowest temperature recorded was `r min(pull(early_january_weather, temp))` degrees Fahrenheit.
+This dataset has `r nrow(early_january_weather)` rows and `r ncol(early_january_weather)` columns. This dataset has 15 variables, which are `r names(early_january_weather)`. The mean temperature is `r mean(pull(early_january_weather, temp))` degrees Fahrenheit.
+
+Other important variables include those related to humidity and precipitation. The mean dew point was `r mean(pull(early_january_weather, dewp))` degrees Fahrenheit, the mean humidity was `r mean(pull(early_january_weather, humid))`%, and the mean precipitation was `r mean(pull(early_january_weather, precip))` inches. The average wind speed during this month was `r mean(pull(early_january_weather, wind_speed))` mph.
 
 **Creating a scatterplot**
 
