@@ -57,6 +57,7 @@ problem2_df =
 ```
 
 **Taking means of variables**
+
 ```{r}
 mean(pull(problem2_df, random_samp))
 mean(pull(problem2_df, vec_logical))
@@ -67,6 +68,7 @@ mean(pull(problem2_df, vec_factor))
 The random sample variable and the logical vector produce numeric values, but the character and factor variables do not, they result in "NA". As they are not numeric, it is not possible to take the arithmetic mean.
 
 **Converting variables to numeric variables**
+
 ```{r eval = FALSE}
 as.numeric(pull(problem2_df, vec_logical))
 as.numeric(pull(problem2_df, vec_char))
